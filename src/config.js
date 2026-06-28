@@ -7,8 +7,8 @@ const createMapsSearchUrl = (query) =>
 export const weddingConfig = {
   siteTitle: 'Sonia & Joel | Nuestra boda',
   names: {
-    bride: 'Joel',
-    groom: 'Sonia',
+    bride: 'Sonia',
+    groom: 'Joel',
     display: 'Joel & Sonia',
     displayAlt: 'Joel y Sonia',
     initials: 'S & J',
@@ -51,10 +51,10 @@ export const weddingConfig = {
     title: 'Con la bendición de Dios y de nuestros padres',
     closingText:
       'Será una alegría compartir con ustedes este momento tan significativo en nuestras vidas.',
-    brideParentsLabel: 'Padres de Sonia',
-    groomParentsLabel: 'Padres de Joel',
-    brideParents: ['Efrain Navarro Medina', 'Olga Durand Vila'],
-    groomParents: ['Carlos Muñoz Loayza', 'Victoria García Leyva'],
+    brideParentsLabel: 'Padres de Joel',
+    groomParentsLabel: 'Padres de Sonia',
+    brideParents: ['Carlos Muñoz Loayza', 'Victoria García Leyva'],
+    groomParents: ['Efrain Navarro Medina', 'Olga Durand Vila'],
     godparents: {
       title: 'Padrinos',
       names: ['Manuel Huallpa Lopez', 'Elsa Quispe Yucra'],
