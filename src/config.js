@@ -9,10 +9,10 @@ export const weddingConfig = {
   names: {
     bride: 'Joel',
     groom: 'Sonia',
-    display: 'Sonia & Joel',
+    display: 'Joel & Sonia',
     displayAlt: 'Joel y Sonia',
     initials: 'S & J',
-    monogram: 'Sonia · Joel',
+    monogram: 'Joel · Sonia',
   },
   intro: {
     openingKicker: 'Nos Casamos',
