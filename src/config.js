@@ -66,7 +66,7 @@ ceremony: {
   date: 'Sábado 08 de agosto',
   time: '04:00 p.m.',
   timeLabel: 'Hora',
-  address: 'Ref. Espaldar del Grifo Yaranmi',
+  address: 'Ref. Espaldar del Grifo Yarumi',
   locationLabel: 'Referencia',
   note: 'La boda religiosa será el momento central de toda nuestra celebración.',
   mapLinks: [
