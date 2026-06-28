@@ -1,0 +1,75 @@
+﻿<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="Invitación digital de boda para Sonia y Joel."
+    />
+    <title>Sonia & Joel | Nuestra boda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <div class="petal-layer" id="petal-layer" aria-hidden="true"></div>
+
+    <div class="opening-screen" id="opening-screen">
+      <div class="opening-ornament opening-ornament--top-left"></div>
+      <div class="opening-ornament opening-ornament--bottom-right"></div>
+
+      <div class="opening-card">
+        <div class="opening-divider" aria-hidden="true">
+          <span></span>
+          <i></i>
+          <span></span>
+        </div>
+
+        <p class="opening-kicker" id="opening-kicker">Nos Casamos</p>
+        <h1 class="opening-title" id="opening-title">
+          <span class="opening-title__name">Sonia</span>
+          <span class="opening-title__ampersand">&amp;</span>
+          <span class="opening-title__name">Joel</span>
+        </h1>
+        <p class="opening-date" id="opening-date">Sábado 08 de agosto de 2026 · 04:00 p.m.</p>
+        <p class="opening-message" id="opening-message">Con la bendición de Dios y de nuestros padres</p>
+
+        <button class="opening-envelope-button" id="opening-envelope-button" type="button" aria-label="Abrir invitación">
+          <img
+            class="opening-envelope-img"
+            src="./assets/img/carta_js.png"
+            alt="Abrir invitación"
+          />
+        </button>
+
+        <div class="opening-divider" aria-hidden="true">
+          <span></span>
+          <i></i>
+          <span></span>
+        </div>
+
+        <button class="opening-button" id="open-invitation" type="button">
+          <span>Abrir invitación</span>
+          <i aria-hidden="true">&rsaquo;</i>
+        </button>
+      </div>
+    </div>
+
+    <main class="page-shell is-locked" id="app"></main>
+
+    <button class="music-toggle music-floating-button" id="music-toggle" type="button" aria-label="Reproducir música">
+      <span class="music-icon music-icon--play" aria-hidden="true">&#9654;</span>
+      <span class="music-icon music-icon--pause" aria-hidden="true">&#10074;&#10074;</span>
+    </button>
+
+    <audio id="wedding-audio" preload="metadata"></audio>
+  </body>
+</html>
