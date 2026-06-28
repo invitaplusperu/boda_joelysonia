@@ -85,7 +85,7 @@ ceremony: {
 },
   reception: {
     title: 'Recepción',
-    place: 'Salón de Recepciones Grass Chaparral',
+    place: 'Grass Sintético El Gran Chaparral',
     date: 'Después de la ceremonia',
     time: 'Al finalizar',
     timeLabel: 'Momento',
