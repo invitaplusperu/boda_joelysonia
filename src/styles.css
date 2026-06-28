@@ -694,9 +694,12 @@ a {
 }
 
 .countdown-segment__value {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(2.2rem, 8vw, 3.6rem);
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(2.1rem, 7.5vw, 3.4rem);
+  font-weight: 400;
+  letter-spacing: 0.02em;
   color: var(--navy);
+  font-variant-numeric: tabular-nums;
 }
 
 .countdown-segment__label {
