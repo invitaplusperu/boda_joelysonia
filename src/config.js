@@ -7,8 +7,8 @@ const createMapsSearchUrl = (query) =>
 export const weddingConfig = {
   siteTitle: 'Sonia & Joel | Nuestra boda',
   names: {
-    bride: 'Sonia',
-    groom: 'Joel',
+    bride: 'Joel',
+    groom: 'Sonia',
     display: 'Joel & Sonia',
     displayAlt: 'Joel y Sonia',
     initials: 'S & J',
